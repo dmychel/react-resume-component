@@ -1,3 +1,26 @@
+// array with object containing information about your jobs
+const exampleArray = [
+  {
+    company: "name of company you worked for",
+    jobs: [
+      {
+        // you can add as many positions for one company as you like, the function will keep them grouped together for you.
+        position: "position title of company you worked for",
+        employment: "time employed e.g jun 2006 - jun 2008",
+        summary: "brief summary of your job position",
+        PAR: [
+          "bullet points for job in in PAR format",
+          "each bullet point is created by seperate strings",
+          "you can place as many as you like",
+        ],
+      },
+    ],
+  },
+  // if you'd add a new role from a different company you'd need to create another object here
+];
+
+// The arrays below are for the demo on the webpage.
+
 const linkArr = [
   {
     company: "Savior of Hyrule",
