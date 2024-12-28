@@ -18,11 +18,8 @@ body {
   margin: auto;
 }
 
-h1 {
-  color: yellow;
-}
+/* Basic Styling without all of the colors custom edits for the themes in the demo */
 
-/* CV */
 .cv_container {
   width: 100%;
   height: auto;
@@ -32,17 +29,11 @@ h1 {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #197a4d;
-  color: #023342;
   box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.253);
   padding: 1rem;
   border-radius: 8px;
   gap: 2em;
   margin-bottom: 1em;
-}
-
-.cv_sonic {
-  background-color: #061db5;
 }
 
 ul {
@@ -58,15 +49,6 @@ ul {
   box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.253);
   border-radius: 8px;
   gap: 0.75em;
-}
-
-.job_sonic {
-  color: white;
-  background-color: #4b8cf5;
-}
-
-.job_link {
-  background-color: #01dd76;
 }
 
 .position {
@@ -118,4 +100,26 @@ span {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+/* below is the styling for the demo */
+
+h1 {
+  color: white;
+}
+
+/* CV */
+
+.cv_sonic {
+  background-color: #061db5;
+}
+
+.job_sonic {
+  color: white;
+  background-color: #4b8cf5;
+}
+
+.job_link {
+  background-color: #01dd76;
+  color: #02364a;
 }
