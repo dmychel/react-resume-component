@@ -3,8 +3,20 @@
   padding: 0;
 }
 
+body {
+  display: block;
+  background-color: rgb(129, 67, 12);
+}
+
 .app {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 45rem;
+  margin: auto;
+}
+
+h1 {
+  color: yellow;
 }
 
 /* CV */
@@ -24,10 +36,10 @@
   border-radius: 8px;
   gap: 2em;
   margin-bottom: 1em;
+}
 
-  ul {
-    padding: 1rem;
-  }
+ul {
+  padding: 1rem;
 }
 
 .job {
@@ -40,22 +52,25 @@
   box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.253);
   border-radius: 8px;
   gap: 0.75em;
-
-  span {
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    background-color: yellow;
-  }
 }
 
 .position {
   display: flex;
   flex-direction: column;
   gap: 0.25em;
-  ul {
-    padding: 0.5rem 0 0 1.5rem;
-  }
+}
+
+ul {
+  padding: 0.5rem 0 0 1.5rem;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  position: absolute;
 }
 
 .top_span {
@@ -71,6 +86,10 @@
 .rotate {
   animation: rotating 20s linear infinite;
   filter: drop-shadow(0 0 8px #070c0e);
+}
+
+.cot {
+  padding: 1rem;
 }
 
 @keyframes rotating {
