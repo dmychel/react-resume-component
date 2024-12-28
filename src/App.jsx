@@ -26,6 +26,39 @@ function App() {
           </button>
         </div>
 
+        <div
+          style={{
+            padding: "2rem 0",
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+            fontWeight: "bold",
+          }}
+        >
+          {arr === linkArr ? (
+            <>
+              <img
+                src="/public/images/link.webp"
+                alt="Link"
+                style={{ height: "150px", width: "auto" }}
+              />
+              <p style={{ maxWidth: "50%" }}>
+                Hyeeh kyaah hyaah haa hyet haa haa jum jum haaa
+              </p>
+            </>
+          ) : (
+            <>
+              <img
+                src="/public/images/sonic.webp"
+                alt="Sonic"
+                style={{ height: "150px", width: "auto" }}
+              />
+              <p style={{ maxWidth: "50%" }}>
+                Sonic&apos;s the name, Speed&apos;s my game!
+              </p>
+            </>
+          )}
+        </div>
         <div className={arr === linkArr ? "cv cv_link" : "cv cv_sonic"}>
           {array.map((obj, index) => {
             return (
