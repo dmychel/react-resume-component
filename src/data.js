@@ -56,8 +56,10 @@ const sonicArr = [
           "High-energy, fearless, and super sonic fast hero with a proven track record of saving the world and stopping evil forces.",
         PAR: [
           "LIVE AND LEARN",
+          "Watch out! You're gonna crash! Ahhh",
           "Defended earth from Dr. Robotnik’s attempt to harness the power of Chaos, a destructive force capable of wiping out entire cities.",
           "Took on the challenge of defeating Chaos, saving Station Square and the future of earth.",
+          "Great music",
         ],
       },
       {
@@ -67,9 +69,57 @@ const sonicArr = [
           "An adaptable and brave adventurer with a proven history of saving the Great Sea from the clutches of evil.",
         PAR: [
           "Rolling around at the speed of sound",
-          "Down in pumpkin hill I gots to find my lost piece",
+          "Down in pumpkin hill, I gots to find my lost piece",
           "Stopped Dr. Robotnik's evil plot to use the Ultimate Lifeform, Shadow, and the Chaos Emeralds to destroy Earth.",
           "Joined forces with allies and rival characters like Shadow to thwart the Bio-Lizard and stop a global catastrophe.",
+          "Great music",
+        ],
+      },
+    ],
+  },
+  {
+    company: "Defender of Earth and Friends... as a Werehog",
+    jobs: [
+      {
+        position: "Sonic The Werehog",
+        employment: "2008 – Present",
+        summary:
+          "In Sonic Unleashed, faced the greatest challenge yet in saving the world from the destructive power of the Dark Gaia and restoring balance to the planet. ",
+        PAR: [
+          "So sonic are u... like... yanno... Nekkid?",
+          "Unlocked fan favorite Werehog mode.",
+          "Faced the catastrophic awakening of Dark Gaia, which split the planet into pieces and unleashed destructive forces across the globe..",
+          "Defeated Eggman's schemes once again, protecting the planet from both mechanical and mystical forces.",
+          "Great music",
+        ],
+      },
+    ],
+  },
+  {
+    company: "Champion of Speed",
+    jobs: [
+      {
+        position: "Extreme Gear Tournament Winner",
+        employment: "2006 – Present",
+        summary:
+          "Fearless hero with unmatched speed and reflexes, skilled in high-speed racing and extreme sports. ",
+        PAR: [
+          "Alright! Bring it on!",
+          "Defeated rivals like Jet the Hawk and the Babylon Rogues, securing victory for himself and his team.",
+          "Uncovered the true motivations behind the mysterious Babylon Garden and its secrets, racing against time to stop evil from taking over the skies.",
+          "Worked with allies like Tails and Knuckles to prevent the destruction of the floating Babylon Garden.",
+          "Great music",
+        ],
+      },
+      {
+        position: "Zero Gravity Tournament Winner",
+        employment: "2008 – Present",
+        summary:
+          "Fearless hero with unmatched speed and reflexes, skilled in high-speed racing and extreme sports. ",
+        PAR: [
+          "Alright! Bring it on!",
+          "Competed in new racing circuits with the ability to control Zero Gravity, gaining an advantage in aerial maneuvers and faster speeds.",
+          "Great music",
         ],
       },
     ],
