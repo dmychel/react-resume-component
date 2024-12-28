@@ -3,7 +3,7 @@ import { sonicArr, linkArr } from "./data";
 import "./App.css";
 
 function App() {
-  const [arr, setArr] = useState(linkArr);
+  const [arr, setArr] = useState(sonicArr);
   const array = arr;
 
   function handleClick() {
@@ -26,15 +26,34 @@ function App() {
           </button>
         </div>
 
-        <div className="cv">
+        <div className={arr === linkArr ? "cv cv_link" : "cv cv_sonic"}>
           {array.map((obj, index) => {
             return (
-              <div key={index} className="job">
+              <div
+                key={index}
+                className={arr === linkArr ? "job job_link" : "job job_sonic"}
+              >
                 <span className="top_span rotate">
-                  <img src="/public/icons/triforce.png" alt="" />
+                  {arr === linkArr ? (
+                    <img src="/public/icons/triforce.png" alt="" />
+                  ) : (
+                    <img
+                      src="/public/icons/ring.gif"
+                      alt=""
+                      style={{ width: "100%" }}
+                    />
+                  )}
                 </span>
                 <span className="bottom_span rotate">
-                  <img src="/public/icons/triforce.png" alt="" />
+                  {arr === linkArr ? (
+                    <img src="/public/icons/triforce.png" alt="" />
+                  ) : (
+                    <img
+                      src="/public/icons/ring.gif"
+                      alt=""
+                      style={{ width: "100%" }}
+                    />
+                  )}
                 </span>
                 <h3>{obj.company}</h3>
                 {obj.jobs.map((job, index) => {
