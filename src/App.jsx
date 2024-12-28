@@ -51,7 +51,17 @@ function App() {
   return (
     <div className="app">
       <div className="cv_container">
-        <h1>Resume</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <h1 style={{ margin: ".5em 0" }}>Resume</h1>{" "}
+          <button style={{ padding: "0.25rem 1rem" }}>Change Theme</button>
+        </div>
+
         <div className="cv">
           {cvDataArr.map((obj, index) => {
             console.log(obj);
@@ -91,7 +101,12 @@ function App() {
             );
           })}
         </div>
-        <div className="cot">
+        <div
+          style={{
+            padding: "1rem 0",
+            fontSize: "1.5rem",
+          }}
+        >
           <p>
             Do you Like this resume layout? You can see the code{" "}
             <a href="#">here!</a>
