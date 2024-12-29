@@ -3,14 +3,18 @@ import { sonicArr, linkArr } from "./data";
 import "./App.css";
 
 function App() {
+  // FOR DEMO FUNCTIONALITY ONLY
   const [arr, setArr] = useState(sonicArr);
   const array = arr;
 
+  // FOR DEMO FUNCTIONALITY ONLY
   function handleClick() {
     setArr((prevArray) => (prevArray === linkArr ? sonicArr : linkArr));
   }
 
   return (
+    // ANY INLINE STYLING AND CONDITIONAL STATEMENTS OR ARE FOR DEMO FUNCTIONALITY ONLY YOU CAN SEE THE BAREBONES LOGIC IN THE LOGIC.JSX FILE
+
     <div className="app">
       <div className="cv_container">
         <div
