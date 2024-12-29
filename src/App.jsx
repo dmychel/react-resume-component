@@ -130,7 +130,9 @@ function App() {
         >
           <p>
             Do you Like this resume layout? You can see the code{" "}
-            <a href="#">here!</a>
+            <a href="https://github.com/dmychel/react-resume-component">
+              here!
+            </a>
           </p>
         </div>
       </div>
