@@ -42,7 +42,7 @@ function App() {
           {arr === linkArr ? (
             <>
               <img
-                src="/public/images/link.webp"
+                src="/images/link.webp"
                 alt="Link"
                 style={{ height: "150px", width: "auto" }}
               />
@@ -53,7 +53,7 @@ function App() {
           ) : (
             <>
               <img
-                src="/public/images/sonic.webp"
+                src="/images/sonic.webp"
                 alt="Sonic"
                 style={{ height: "150px", width: "auto" }}
               />
@@ -72,10 +72,10 @@ function App() {
               >
                 <span className="top_span rotate">
                   {arr === linkArr ? (
-                    <img src="/public/icons/triforce.png" alt="" />
+                    <img src="/icons/triforce.png" alt="" />
                   ) : (
                     <img
-                      src="/public/icons/ring.gif"
+                      src="/icons/ring.gif"
                       alt=""
                       style={{ width: "100%" }}
                     />
@@ -83,10 +83,10 @@ function App() {
                 </span>
                 <span className="bottom_span rotate">
                   {arr === linkArr ? (
-                    <img src="/public/icons/triforce.png" alt="" />
+                    <img src="/icons/triforce.png" alt="" />
                   ) : (
                     <img
-                      src="/public/icons/ring.gif"
+                      src="/icons/ring.gif"
                       alt=""
                       style={{ width: "100%" }}
                     />
