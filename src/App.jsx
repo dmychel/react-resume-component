@@ -22,9 +22,10 @@ function App() {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
+            padding: "0 1rem",
           }}
         >
-          <h1 style={{ margin: ".5em 0" }}>Resume</h1>{" "}
+          <h1 style={{ margin: ".5em 0" }}>Resume</h1>
           <button style={{ padding: "0.25rem 1rem" }} onClick={handleClick}>
             Change Theme
           </button>
@@ -124,6 +125,7 @@ function App() {
           style={{
             padding: "1rem 0",
             fontSize: "1.5rem",
+            padding: "1rem 1rem",
           }}
         >
           <p>
